@@ -1,13 +1,13 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Week 1</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  </head>
-  <body> 
-    <div class="container">
+class Tweet
+  attr_accessor :user, :message
+  ALL_MESSAGES = []
+  def initialize(user, message)
+    @user = user
+    @message = message
+    ALL_MESSAGES << self
+  end
 
-
-    </div>
-  </body>
-</html>
+  def self.all_messages
+    ALL_MESSAGES
+  end
+end

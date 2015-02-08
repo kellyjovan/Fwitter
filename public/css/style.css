@@ -1,0 +1,17 @@
+.post{
+  border-bottom: solid 1px #E5E4E2;
+}
+body{
+  background: url(http://wallawy.com/wp-content/uploads/busy_city_street_night_wallpapers__widescreen1.jpg);
+  background-size: cover;
+  color: white;
+}
+h1{
+  font-weight: bold;
+}
+.white-box{
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
