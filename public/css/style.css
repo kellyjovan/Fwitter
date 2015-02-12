@@ -12,6 +12,12 @@ h1{
 .white-box{
   width: 100%;
   background-color: white;
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 5px;
+  padding: 3px;
+  /*height: 170px;*/
+  margin-bottom: 10px;
+}
+
+input{
+  margin: 5px;
 }
