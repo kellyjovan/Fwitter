@@ -1,7 +1,7 @@
 .post{
   border-bottom: solid 1px #E5E4E2;
 }
-body{
+.main{
   background: url(http://wallawy.com/wp-content/uploads/busy_city_street_night_wallpapers__widescreen1.jpg);
   background-size: cover;
   color: white;
@@ -14,10 +14,29 @@ h1{
   background-color: white;
   border-radius: 5px;
   padding: 3px;
-  /*height: 170px;*/
+  height: 100px;  
+  margin-bottom: 10px;
+}
+.white-box-v2{
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px;
+  height: 180px;  
   margin-bottom: 10px;
 }
 
-input{
+input, textarea, .btn{
   margin: 5px;
+}
+
+.navbar-default{
+  background-color: white;
+}
+.user_main_img{
+  margin-top:-20px;
+  background: url(http://www.strangebeaver.com/wp-content/uploads/2013/06/wpw619/5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
 }
